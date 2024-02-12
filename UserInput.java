@@ -7,8 +7,8 @@ class UserInput extends ConsoleProgram {
     int intAge;
     double dblCurrentMark;
     boolean blnAssignedLocker;
-
-    strName = readLine("Enter your name: ");
+    // Assign variables to user input
+    strName = readLine("Enter your name:");
     System.out.println("Name: " + strName);
 
     intAge = readInt("Enter your age:");
@@ -18,7 +18,7 @@ class UserInput extends ConsoleProgram {
     System.out.println("Current Mark: " + dblCurrentMark);
 
     blnAssignedLocker = readBoolean("Have you been assigned a locker:");
-    System.out.println("Locker Assigned: " + blnAssignedLocker);
+    System.out.println("Locker Assigned:  " + blnAssignedLocker);
     
   }
 }
